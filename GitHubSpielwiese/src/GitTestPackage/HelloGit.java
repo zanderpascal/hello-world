@@ -7,6 +7,7 @@ public class HelloGit {
 		System.out.println("Hello Git!");
 		System.out.println("First edit..");
 		System.out.println("Added Change ID");
+		System.out.println("Test new Branch");
 		
 		Car test = new Car(1996);
 		System.out.println(test.getYear());
