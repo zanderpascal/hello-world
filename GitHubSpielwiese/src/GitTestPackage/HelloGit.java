@@ -11,6 +11,9 @@ public class HelloGit {
 		
 		Car test = new Car(1996);
 		System.out.println(test.getYear());
+		
+		//edit aus github heraus
+		System.out.println("Pull pull.");
 	}
 
 }
