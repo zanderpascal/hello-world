@@ -2,7 +2,9 @@ package Exceptions;
 
 public class ExceptionPractice {
 
-	public ExceptionPractice() {
+	public ExceptionPractice() {}
+	
+	public static void main(String[] args) {
 		int[] testArray = new int[3];
 		
 		testArray[0] = 1;
@@ -16,6 +18,6 @@ public class ExceptionPractice {
 		}catch(ArrayIndexOutOfBoundsException e){
 			System.out.println("Array zu kurz");
 		}
+	
 	}
-
 }
