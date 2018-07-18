@@ -16,8 +16,7 @@ public class ExceptionPractice {
 				System.out.println(testArray[i]);
 			}
 		}catch(ArrayIndexOutOfBoundsException e){
-			System.out.println("Array zu kurz");
-		}
-	
+			System.out.println(e.getMessage());
+		}	
 	}
 }
