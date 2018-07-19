@@ -2,7 +2,10 @@ package GitTestPackage;
 
 public class HelloGit {
 
+	
 	public static void main(String[] args) {
+
+		/*
 		// TODO Auto-generated method stub
 		System.out.println("Hello Git!");
 		System.out.println("First edit..");
@@ -14,6 +17,14 @@ public class HelloGit {
 		
 		//edit aus github heraus
 		System.out.println("Pull pull.");
+		
+		*/
+		
+		boolean a = false;
+		boolean b = false; 
+		boolean c = false;
+		
+		System.out.println(a == b);
 	}
 
 }
